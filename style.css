@@ -1,5 +1,5 @@
 /* Fonts */
-a, h1, h2, h3, h4, h5, p, a:link, a:visited, a:hover, a:active {
+a, h1, h2, h3, h4, h5, label, input#submit, p, a:link, a:visited, a:hover, a:active {
   font-family: Lato;
   color: white;
   line-height: 1.5em;
@@ -198,6 +198,18 @@ nav.topnav li.right {float: right;}
   padding-right: 30px;
 }
 
+
+/* Contact Form */
+input, textarea {
+  padding: 10px;
+  width: 50vw;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+input#submit {
+  background: #1b89c6;
+}
 
 /* Footer */
 footer {
