@@ -170,6 +170,10 @@ nav.topnav li.right {float: right;}
   display: flex;
 }
 
+.more-movies-container .character{
+  margin-top: 25px;
+ }
+
 .image-description {
   font-style: italic;
 }
